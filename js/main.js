@@ -141,7 +141,7 @@ function getTouchPos(e) {
 document.getElementById('clear_button').addEventListener("click",  
                                              function(){  
     ctx.clearRect(0, 0, canvas.width, canvas.height);  
-    ctx.fillStyle = "black"; 
+    ctx.fillStyle = "white"; 
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 });
 
