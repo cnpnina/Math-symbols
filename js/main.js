@@ -11,7 +11,7 @@ function init()
     ctx = canvas.getContext('2d');
     //we have context of canvas on ctx
     //we will fill ctx background with black
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "white";
     // it draws a fill rect with x=0,y=0 as start 
     //and canvas width and height
     ctx.fillRect(0,0,canvas.width,canvas.height);
@@ -34,7 +34,7 @@ function draw(ctx,x,y,size,isDown)
     {   //to inform canvas user is about to draw
         ctx.beginPath();
         //to set color of line
-        ctx.strokeStyle = "white";
+        ctx.strokeStyle = "black";
         //set width of line      
         ctx.lineWidth = '15'; 
         //.linejoin : set connection between two line 
